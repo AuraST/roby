@@ -1,0 +1,12 @@
+.banner {
+    display: grid;
+
+    grid-template-columns: 760px auto;
+
+    max-width: 1440px;
+    width: 100%;
+}
+
+.banner__picture-image {
+    width: 100%;
+}

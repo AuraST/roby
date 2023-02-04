@@ -1,11 +1,11 @@
 .header-logo {
-    width: 410px;
+    width: 41rem;
 }
 
 .header-logo__image {
     position: absolute;
 
-    top: 59px;
+    top: 5.9rem;
 
-    width: 410px;
+    width: 41rem;
 }

@@ -1,0 +1,25 @@
+.partners {
+    max-width: 120rem;
+    width: 100%;
+
+    margin: 12rem auto;
+
+    text-align: center;
+}
+
+.partners__title {
+    margin: 0 0 3.7rem;
+
+    font-size: 2.7rem;
+
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.partners__title .partners__title_lower {
+    font-size: 2.2rem;
+}
+
+.partners__list-image {
+    width: 102.3rem;
+}

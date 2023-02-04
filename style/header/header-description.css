@@ -1,9 +1,9 @@
 .header-description__text {
     color: #747474;
 
-    margin: 0 0 16px;
+    margin: 0 0 1.6rem;
 
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: normal;
 }
 
@@ -13,4 +13,6 @@
     text-decoration: none;
 
     color: #000;
+
+    font-size: 1.8rem;
 }

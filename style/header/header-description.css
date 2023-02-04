@@ -1,0 +1,16 @@
+.header-description__text {
+    color: #747474;
+
+    margin: 0 0 16px;
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header-description__link {
+    margin: 0;
+
+    text-decoration: none;
+
+    color: #000;
+}

@@ -1,0 +1,20 @@
+.reviews {
+    max-width: 144rem;
+    width: 100%;
+
+    margin: 0 auto 9rem;
+}
+
+.reviews__title {
+    margin-bottom: 11.4rem;
+
+    text-align: center;
+}
+
+.reviews__list {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 2rem;
+}

@@ -1,0 +1,21 @@
+.facts {
+    max-width: 120rem;
+    width: 100%;
+
+    margin: 0 auto 15rem;
+}
+
+.facts__title {
+    margin-bottom: 6rem;
+
+    text-align: center;
+}
+
+.facts__list {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}

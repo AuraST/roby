@@ -45,6 +45,8 @@ html {
 }
 
 .btn_rect {
+    display: inline-block;
+
     padding: 1.6rem 2.8rem;
 
     border-radius: 4rem;

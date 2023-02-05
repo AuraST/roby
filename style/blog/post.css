@@ -1,0 +1,47 @@
+.post__image {
+    width: 100%;
+
+    margin-bottom: 4.4rem;
+}
+
+.post__tag {
+    display: inline-block;
+
+    margin-bottom: 1.9rem;
+
+    padding: .7rem 1.6rem;
+
+    border: .1rem solid #000;
+
+    border-radius: 2rem;
+}
+
+.post__tag-text {
+    margin: 0;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.post__title {
+    margin: 0 0 3rem;
+
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+    text-transform: uppercase;
+}
+
+.post__data {
+    margin: 0;
+
+    font-size: 1.7rem;
+    line-height: 1.3;
+
+    color: #8F8F8F;
+}

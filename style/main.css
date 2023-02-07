@@ -54,9 +54,18 @@ html {
     color: #fff;
 
     background-color: #000;
+
+    transition: .3s;
+}
+
+.btn_rect:hover,
+.btn_rect:active {
+    opacity: .7;
 }
 
 .btn_circle {
+    position: relative;
+
     width: 13.8rem;
     height: 13.8rem;
 
@@ -65,10 +74,61 @@ html {
     background-color: #000;
 
     border-radius: 50%;
+
+    border: .3rem solid #000;
+
+    transition: .3s;
+
+    z-index: 1;
+}
+
+.btn_circle::before {
+    content: "";
+
+    position: absolute;
+
+    display: block;
+
+    width: 13.8rem;
+    height: 13.8rem;
+
+    border-radius: 50%;
+
+    background-color: #000;
+
+    z-index: -1;
+
+    transition: .3s;
+}
+
+.btn_circle:hover,
+.btn_circle:active {
+    background-color: #fff;
+
+    color: #000;
+}
+
+.btn_circle:hover::before,
+.btn_circle:active::before {
+    width: 0rem;
+    height: 0rem;
 }
 
 .btn_white {
     color: #000;
 
     background-color: #fff;
+
+    border: .3rem solid #fff;
+}
+
+.btn_white::before {
+    background-color: #fff;
+}
+
+.btn_white:hover,
+.btn_white:active {
+    background-color: #000;
+
+    color: #fff;
 }

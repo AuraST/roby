@@ -7,3 +7,8 @@
     width: 4.5rem;
     height: 4.5rem;
 }
+
+.socials-item:hover,
+.socials-item:active {
+    opacity: .7;
+}

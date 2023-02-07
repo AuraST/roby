@@ -12,6 +12,8 @@
     border-radius: .4rem;
 
     text-align: center;
+
+    opacity: .6;
 }
 
 .review__title {

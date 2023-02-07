@@ -7,6 +7,8 @@
         <title>Roby - a creative agency</title>
 
         <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     </head>
     <body>
         <header class="header">
@@ -57,14 +59,14 @@
             </picture>
 
             <div class="banner-description">
-                <p class="banner-description__title title">
+                <p class="banner-description__title title wow fadeInUp">
                     “We believe that <br>
                     <span class="title_lower">the power of design</span><br>
                     helps<br> 
                     businesses.”
                 </p>
 
-                <a class="btn btn_circle" href="#">
+                <a class="btn btn_circle wow fadeInDown" href="#">
                     work <br>
                     with us
                 </a>
@@ -72,17 +74,17 @@
         </section>
 
         <section class="partners">
-            <p class="partners__title">
+            <p class="partners__title wow fadeInDown">
                 We partner with <span class="partners__title partners__title_lower">forward-thinking</span> startups.
             </p>
 
-            <div class="partners__list">
+            <div class="partners__list wow fadeInUp">
                 <img class="partners__list-image" src="image/partners/list.jpg" alt="Partners list">
             </div>
         </section>
 
         <section class="about">
-            <div class="about-description">
+            <div class="about-description wow fadeInDown">
                 <p class="about-description__title title">
                     the perfect <br>
                     <span class="title_lower">agency for your brand</span>
@@ -99,7 +101,7 @@
                 </p>
             </div>
 
-            <div class="about-awards">
+            <div class="about-awards wow fadeInRight">
                 <div class="about-awards__block">
                     <dl class="about-awards__list">
                         <div class="about-awards__item about-awards__item_top">
@@ -196,7 +198,7 @@
             </h2>
 
             <ul class="works__list">
-                <li class="works__item">
+                <li class="works__item wow fadeInLeft">
                     <img class="works__item-image" src="image/works/conference.jpg" alt="Byesicle">
                     <p class="works__item-title">
                         Conference
@@ -205,7 +207,7 @@
                         Art Direction, Design
                     </p>
                 </li>
-                <li class="works__item">
+                <li class="works__item wow fadeInRight" data-wow-delay=".5s">
                     <img class="works__item-image" src="image/works/magazine.jpg" alt="Magazine">
                     <p class="works__item-title">
                         Magazine
@@ -214,7 +216,7 @@
                         Logo, User Interface
                     </p>
                 </li>
-                <li class="works__item">
+                <li class="works__item wow fadeInLeft" data-wow-delay="1s">
                     <img class="works__item-image" src="image/works/ivor-application.jpg" alt="Ivor Application">
                     <p class="works__item-title">
                         Ivor Application
@@ -223,7 +225,7 @@
                         User Interface
                     </p>
                 </li>
-                <li class="works__item">
+                <li class="works__item wow fadeInRight" data-wow-delay="1.5s">
                     <img class="works__item-image" src="image/works/black-apple-watch.jpg" alt="Black Apple Watch">
                     <p class="works__item-title">
                         Black Apple Watch
@@ -232,7 +234,7 @@
                         Logo, User Interface
                     </p>
                 </li>
-                <li class="works__item">
+                <li class="works__item wow fadeInLeft" data-wow-delay="2s">
                     <img class="works__item-image" src="image/works/moon.jpg" alt="Flying to the moon">
                     <p class="works__item-title">
                         Flying to the moon
@@ -241,7 +243,7 @@
                         User Experiences
                     </p>
                 </li>
-                <li class="works__item">
+                <li class="works__item wow fadeInRight" data-wow-delay="2.5s">
                     <img class="works__item-image" src="image/works/dharma-webfont.jpg" alt="Dharma Webfont">
                     <p class="works__item-title">
                         Dharma Webfont
@@ -254,7 +256,7 @@
         </section>
 
         <section class="advantages">
-            <div class="advantages__content">
+            <div class="advantages__content wow fadeInLeft">
                 <p class="advantages__content-title title">
                     Improve <span class="title_lower">your brand</span> with an awesome site.
                 </p>
@@ -278,7 +280,7 @@
                 </div>
             </div>
 
-            <picture class="advantages__picture">
+            <picture class="advantages__picture wow fadeInRight">
                 <source media="(max-width: 768px)" srcset="image/advantages/foto-mb.jpg">
                 <img class="advantages__image" src="image/advantages/foto.jpg" alt="">
             </picture>
@@ -290,59 +292,107 @@
             </p>
 
             <div class="reviews__content"> 
-                <div class="reviews__list js-slider-reviews">
-                    <div class="reviews__item review">
-                        <p class="review__title">
-                            &laquo;The public is&nbsp;more familiar with bad design than good design. 
-                            It&nbsp;is, in&nbsp;effect, conditioned to&nbsp;prefer bad design, because that is&nbsp;what it&nbsp;lives with.&raquo;
-                        </p>
-                        <div class="review__block">
-                            <img class="review__avatar" src="image/reviews/foto_1.jpg" alt="Foto Paige Brennan">
-                            <p class="review__block-name">
-                                Paige Brennan
+                <div class="reviews__list js-slider-reviews swiper">
+                    <div class="swiper-wrapper">
+                        <div class="reviews__item review swiper-slide">
+                            <p class="review__title">
+                                &laquo;The public is&nbsp;more familiar with bad design than good design. 
+                                It&nbsp;is, in&nbsp;effect, conditioned to&nbsp;prefer bad design, because that is&nbsp;what it&nbsp;lives with.&raquo;
                             </p>
-                            <p class="review__block-position">
-                                Webflow Founder
+                            <div class="review__block">
+                                <img class="review__avatar" src="image/reviews/foto_1.jpg" alt="Foto Paige Brennan">
+                                <p class="review__block-name">
+                                    Paige Brennan
+                                </p>
+                                <p class="review__block-position">
+                                    Webflow Founder
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews__item review swiper-slide">
+                            <p class="review__title">
+                                &laquo;The public is&nbsp;more familiar with bad design than good design. 
+                                It&nbsp;is, in&nbsp;effect, conditioned to&nbsp;prefer bad design, because that is&nbsp;what it&nbsp;lives with.&raquo;
                             </p>
+                            <div class="review__block">
+                                <img class="review__avatar" src="image/reviews/foto_2.jpg" alt="Foto Caitlin Ward">
+                                <p class="review__block-name">
+                                    Caitlin Ward
+                                </p>
+                                <p class="review__block-position">
+                                    Webflow Founder
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews__item review swiper-slide">
+                            <p class="review__title">
+                                &laquo;A&nbsp;designer knows he&nbsp;has achieved perfection not when there is&nbsp;nothing 
+                                left to&nbsp;add, but when there is&nbsp;nothing left to&nbsp;take away.&raquo;
+                            </p>
+                            <div class="review__block">
+                                <img class="review__avatar" src="image/reviews/foto_3.jpg" alt="Foto Matthew Webster">
+                                <p class="review__block-name">
+                                    Matthew Webster
+                                </p>
+                                <p class="review__block-position">
+                                    Webflow Founder
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews__item review swiper-slide">
+                            <p class="review__title">
+                                &laquo;The public is&nbsp;more familiar with bad design than good design. 
+                                It&nbsp;is, in&nbsp;effect, conditioned to&nbsp;prefer bad design, because that is&nbsp;what it&nbsp;lives with.&raquo;
+                            </p>
+                            <div class="review__block">
+                                <img class="review__avatar" src="image/reviews/foto_2.jpg" alt="Foto Caitlin Ward">
+                                <p class="review__block-name">
+                                    Caitlin Ward
+                                </p>
+                                <p class="review__block-position">
+                                    Webflow Founder
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews__item review swiper-slide">
+                            <p class="review__title">
+                                &laquo;The public is&nbsp;more familiar with bad design than good design. 
+                                It&nbsp;is, in&nbsp;effect, conditioned to&nbsp;prefer bad design, because that is&nbsp;what it&nbsp;lives with.&raquo;
+                            </p>
+                            <div class="review__block">
+                                <img class="review__avatar" src="image/reviews/foto_1.jpg" alt="Foto Paige Brennan">
+                                <p class="review__block-name">
+                                    Paige Brennan
+                                </p>
+                                <p class="review__block-position">
+                                    Webflow Founder
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews__item review swiper-slide">
+                            <p class="review__title">
+                                &laquo;A&nbsp;designer knows he&nbsp;has achieved perfection not when there is&nbsp;nothing 
+                                left to&nbsp;add, but when there is&nbsp;nothing left to&nbsp;take away.&raquo;
+                            </p>
+                            <div class="review__block">
+                                <img class="review__avatar" src="image/reviews/foto_3.jpg" alt="Foto Matthew Webster">
+                                <p class="review__block-name">
+                                    Matthew Webster
+                                </p>
+                                <p class="review__block-position">
+                                    Webflow Founder
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="reviews__item review">
-                        <p class="review__title">
-                            &laquo;The public is&nbsp;more familiar with bad design than good design. 
-                            It&nbsp;is, in&nbsp;effect, conditioned to&nbsp;prefer bad design, because that is&nbsp;what it&nbsp;lives with.&raquo;
-                        </p>
-                        <div class="review__block">
-                            <img class="review__avatar" src="image/reviews/foto_2.jpg" alt="Foto Caitlin Ward">
-                            <p class="review__block-name">
-                                Caitlin Ward
-                            </p>
-                            <p class="review__block-position">
-                                Webflow Founder
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reviews__item review">
-                        <p class="review__title">
-                            &laquo;A&nbsp;designer knows he&nbsp;has achieved perfection not when there is&nbsp;nothing 
-                            left to&nbsp;add, but when there is&nbsp;nothing left to&nbsp;take away.&raquo;
-                        </p>
-                        <div class="review__block">
-                            <img class="review__avatar" src="image/reviews/foto_3.jpg" alt="Foto Matthew Webster">
-                            <p class="review__block-name">
-                                Matthew Webster
-                            </p>
-                            <p class="review__block-position">
-                                Webflow Founder
-                            </p>
-                        </div>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
 
         <section class="skills">
             <div class="skills__content">
-                <div class="skills__column">
+                <div class="skills__column wow fadeIn">
                     <p class="skills__column-title title">
                         Our <span class="title_lower">team</span> Skills
                     </p>
@@ -390,7 +440,7 @@
                         * Over 8 years creating templates on Marketplace.
                     </p>
                 </div>
-                <div class="skills__column">
+                <div class="skills__column wow fadeIn">
                     <picture>
                         <source media="(max-width: 768px)" srcset="image/skills/foto-mb.jpg">
                         <img class="skills__image" src="image/skills/foto.jpg" alt="">
@@ -405,7 +455,7 @@
             </p>
 
             <div class="facts__list">
-                <div class="facts__item fact">
+                <div class="facts__item fact wow fadeIn">
                     <div class="fact__image">
                         <img class="fact__icon" src="image/facts/years.svg" alt="">
                     </div>
@@ -418,7 +468,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="facts__item fact">
+                <div class="facts__item fact wow fadeIn" data-wow-delay=".5s">
                     <div class="fact__image">
                         <img class="fact__icon" src="image/facts/project.svg" alt="">
                     </div>
@@ -431,7 +481,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="facts__item fact">
+                <div class="facts__item fact wow fadeIn" data-wow-delay="1s">
                     <div class="fact__image">
                         <img class="fact__icon" src="" alt="">
                     </div>
@@ -444,7 +494,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="facts__item fact">
+                <div class="facts__item fact wow fadeIn" data-wow-delay="1.5s">
                     <div class="fact__image">
                         <img class="fact__icon" src="image/facts/cups.svg" alt="">
                     </div>
@@ -461,7 +511,7 @@
         </section>
 
         <section class="blog">
-            <div class="blog__header">
+            <div class="blog__header wow fadeIn">
                 <p class="blog__header-title title">
                     Our <span class="title_lower">Blog</span>
                 </p>
@@ -472,7 +522,7 @@
                 </a>
             </div>
 
-            <div class="blog__list js-slider-blog">
+            <div class="blog__list js-slider-blog wow fadeIn">
                 <div class="blog__item post">
                     <img class="post__image" src="image/blog/foto_1.jpg" alt="">
 
@@ -524,7 +574,7 @@
         </section>
 
         <section class="contact">
-            <div class="contact__block">
+            <div class="contact__block wow fadeIn">
                 <div class="contact__content">
                     <p class="contact__content-title">
                         Let's <span class="contact__content-title_lower">Talk</span>
@@ -634,5 +684,13 @@
                 </p>
             </div>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="script/wow.min.js"></script>
+        <script type="text/javascript" src="script/index.js"></script>
+        
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
     </body>
 </html>

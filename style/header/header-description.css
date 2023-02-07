@@ -16,3 +16,8 @@
 
     font-size: 1.8rem;
 }
+
+.header-description__link:hover,
+.header-description__link:active {
+    text-decoration: underline;
+}

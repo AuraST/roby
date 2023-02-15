@@ -1,8 +1,4 @@
 .banner {
-    display: grid;
-
-    grid-template-columns: 76rem auto;
-
     max-width: 144rem;
     width: 100%;
 

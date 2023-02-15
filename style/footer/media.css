@@ -1,0 +1,15 @@
+@media (min-width: 1025px) {
+    .footer__columns {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__columns {
+        flex-direction: column;
+    }
+
+    .footer__column {
+        margin-bottom: 4rem;
+    }
+}

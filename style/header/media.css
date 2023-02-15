@@ -1,0 +1,35 @@
+@media (min-width: 1025px) {
+    .header__container {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .header-menu__list {
+        justify-content: flex-end;
+    }
+
+    .header-logo {
+        width: 41rem;
+    }
+
+    .header-logo__image {
+        position: absolute; 
+    
+        top: 5.9rem;
+    
+        width: 41rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-description {
+        margin-bottom: 2rem;
+    }
+
+    .header-logo__image {
+        width: 50%;
+
+        margin-bottom: 2rem;
+    }
+}

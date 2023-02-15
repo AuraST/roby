@@ -12,15 +12,6 @@
 }
 
 .works__list {
-    display: grid;
-
-    grid-template-columns: repeat(2, 47rem);
-    grid-template-rows: repeat(auto-fit, 10rem);
-
-    gap: 2rem;
-
-    justify-content: center;
-
     margin: 0;
 
     padding: 0;

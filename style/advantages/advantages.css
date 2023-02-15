@@ -1,16 +1,8 @@
 .advantages {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
     max-width: 120rem;
     width: 100%;
 
     margin: 0 auto 15rem;
-}
-
-.advantages__content {
-    margin: 11.4rem 12rem 10.4rem 7.1rem;
 }
 
 .advantages__content-title {
@@ -47,12 +39,4 @@
 
 .advantages__picture {
     position: relative;
-}
-
-.advantages__image {
-    position: absolute;
-
-    left: 0;
-
-    max-height: 65rem;
 }

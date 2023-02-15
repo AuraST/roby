@@ -1,8 +1,4 @@
 .header__container {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
     margin: 3rem 0 4.5rem;
 
     width: 100%;

@@ -8,20 +8,10 @@
 .blog__header {
     display: flex;
 
-    flex-direction: row;
-
     align-items: center;
     justify-content: space-between;
 
     width: 100%;
 
     margin-bottom: 5rem;
-}
-
-.blog__list {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    column-gap: 4rem;
 }

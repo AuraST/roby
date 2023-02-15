@@ -1,0 +1,23 @@
+@media (min-width: 1025px) {
+    .facts__list {
+        flex-direction: row;
+    }
+
+    .fact {
+        width: 26.2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .facts__list {
+        flex-direction: column;
+    }
+
+    .facts__item {
+        margin-bottom: 4rem;
+    }
+
+    .fact__block {
+        margin-left: 2rem;
+    }
+}

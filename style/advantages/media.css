@@ -1,0 +1,25 @@
+@media (min-width: 1025px) {
+    .advantages {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advantages__content {
+        margin: 11.4rem 12rem 10.4rem 7.1rem;
+    }
+
+    .advantages__image {
+        position: absolute;
+    
+        left: 0;
+    
+        max-height: 65rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .advantages__image {
+        width: 100%;
+    }
+}

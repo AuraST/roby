@@ -1,7 +1,5 @@
 .about-awards {
     align-self: flex-end;
-
-    margin-left: 5rem;
 }
 
 .about-awards__list:not(:last-child) {

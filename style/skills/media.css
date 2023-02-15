@@ -1,0 +1,25 @@
+@media (min-width: 1025px) {
+    .skills {
+        margin: 0 auto 15rem;
+    }
+
+    .skills__content {
+        display: grid;
+        
+        grid-template-columns: repeat(2, 72rem);
+    }
+
+    .skills__column:first-child {
+        padding: 9.2rem 11.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .skills__column:first-child {
+        padding: 5rem 2rem;
+    }
+
+    .skills {
+        margin: 0 -2rem 15rem;
+    }
+}

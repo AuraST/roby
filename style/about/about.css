@@ -1,8 +1,4 @@
 .about {
-    display: grid;
-
-    grid-template-columns: 76rem auto;
-
     max-width: 120rem;
     width: 100%;
 

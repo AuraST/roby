@@ -1,24 +1,14 @@
 .skills {
-    margin: 0 auto 15rem;
-
     background-color: #000;
 
     color: #fff;
 }
 
 .skills__content {
-    display: grid;
-
-    grid-template-columns: repeat(2, 72rem);
-
     max-width: 144rem;
     width: 100%;
 
     margin: 0 auto;
-}
-
-.skills__column:first-child {
-    padding: 9.2rem 11.5rem;
 }
 
 .skills__image {

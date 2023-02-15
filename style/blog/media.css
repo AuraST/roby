@@ -1,0 +1,19 @@
+@media (min-width: 1025px) {
+    .blog__header {
+        flex-direction: row;
+    }
+
+    .blog__list {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        column-gap: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .blog__item {
+        margin-bottom: 4rem;
+    }
+}

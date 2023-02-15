@@ -1,0 +1,21 @@
+@media (min-width: 1025px) {
+    .contact {
+        margin: 0 auto;
+    }
+
+    .contact__block {
+        width: 100%;
+
+        padding: 12rem 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact {
+        margin: 0 -2rem;
+    }
+
+    .contact__block {
+        padding: 6rem 2rem;
+    }
+}

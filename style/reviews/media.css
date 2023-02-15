@@ -1,0 +1,27 @@
+@media (min-width: 1025px) {
+    .review__title {
+        margin: 3.5rem 4.9rem 2.9rem;
+    }
+
+    .reviews__title {
+        margin-bottom: 11.4rem;
+    }
+
+    .review__block {
+        margin-bottom: 2.9rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .review__title {
+        margin: 3.5rem 2.9rem 1.9rem;
+    }
+
+    .reviews__title {
+        margin-bottom: 4rem;
+    }
+
+    .review__block {
+        margin-bottom: 2.9rem;
+    }
+}

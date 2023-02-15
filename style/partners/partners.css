@@ -20,6 +20,10 @@
     font-size: 2.2rem;
 }
 
+.partners__list {
+    overflow: auto;
+}
+
 .partners__list-image {
     width: 102.3rem;
 }

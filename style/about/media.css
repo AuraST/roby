@@ -1,0 +1,14 @@
+@media (min-width: 1025px) {
+    .about {
+        display: grid;
+
+        grid-template-columns: 76rem auto;
+    }
+
+    .about-awards {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+}

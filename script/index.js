@@ -14,3 +14,11 @@ var swiper = new Swiper(".js-slider-reviews", {
       clickable: true,
     },
 });
+
+wow = new WOW(
+    {
+        mobile: false,
+    }
+);
+
+wow.init();

@@ -1,6 +1,6 @@
-@import url('normalize.css');
+@import url('modules/normalize.css');
 
-@import url('fonts.css');
+@import url('modules/fonts.css');
 
 @import url('main.css');
 
